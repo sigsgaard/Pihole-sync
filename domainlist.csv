@@ -1,21 +1,41 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,3,^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+2,3,^(.+[_.-])?telemetry[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+3,3,"^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]",1,1609260832,1609260832,github.com/mmotti/pihole-regex
+4,3,^adim(age|g)s?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+5,3,^adtrack(er|ing)?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+6,3,^advert(s|is(ing|ements?))?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+7,3,^aff(iliat(es?|ion))?[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+8,3,^analytics?[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+9,3,^banners?[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+10,3,^beacons?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+11,3,^count(ers?)?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+12,3,^mads\.,1,1609260832,1609260832,github.com/mmotti/pihole-regex
+13,3,^pixels?[-.],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+14,3,^stat(s|istics)?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
+15,3,(^|\.)rettighedsalliancen$,1,1609262722,1609262722,
+16,3,(\.|^)doubleclick$,1,1609262803,1609262803,
+17,3,^(.+[_.-])?amp(project)?\.,1,1609262857,1609262857,
+18,0,click.misend.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
+20,0,list-manage.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
+26,0,aax-eu.amazon-adsystem.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
+63,2,(\.|^)gruppogammawatches\.com$,1,1601579230,1609264530,
+65,2,(\.|^)ecs\.richrelevance\.com$,1,1603524612,1609264530,
+74,0,webhook.logentries.com,1,1608301596,1609264530,
+77,0,gateway.icloud.com,1,1609063768,1609264530,"Sikrer at iCloud virker med HomeKit etc."
+80,0,62.210.136.158,1,1609085767,1609264530,"KeepSolid SmartDNS"
+119,2,(\.|^)sarenza$,1,1609263598,1609264530,
+120,2,(\.|^)mailchimp$,1,1609263608,1609264530,
+122,2,(\.|^)kk.dk,1,1609263663,1609264530,"KK VPN m.v."
+123,2,(\.|^)bbc\.$,1,1609273409,1609273409,
+124,0,el-ladies.com,1,1609273451,1609273451,
+125,0,mature-blogs.com,1,1609273479,1609273479,
+126,2,(\.|^)piratebay$,1,1609273507,1609273507,
+127,2,(\.|^)yts$,1,1609273517,1609273517,
+128,0,metrics.icloud.com,1,1609322090,1609322090,"Added from Query Log"
+129,0,cf.iadsdk.apple.com,1,1609322131,1609322131,"Added from Query Log"
+130,0,tv2.dk,1,1609322951,1609322951,
+131,0,watchgecko.us7.list-manage.com,1,1609323072,1609323072,
+132,0,drop.com,1,1609323123,1609323123,
+133,0,9to5toys.com,1,1609323664,1609323664,
+134,3,(\.|^)forgeofempires$,1,1609414163,1609414163,
