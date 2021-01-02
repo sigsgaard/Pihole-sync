@@ -13,29 +13,30 @@ id,type,domain,enabled,date_added,date_modified,comment
 12,3,^mads\.,1,1609260832,1609260832,github.com/mmotti/pihole-regex
 13,3,^pixels?[-.],1,1609260832,1609260832,github.com/mmotti/pihole-regex
 14,3,^stat(s|istics)?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
-15,3,(^|\.)rettighedsalliancen$,1,1609262722,1609262722,
-16,3,(\.|^)doubleclick$,1,1609262803,1609262803,
-17,3,^(.+[_.-])?amp(project)?\.,1,1609262857,1609262857,
+15,3,(^|\.)rettighedsalliancen$,1,1609262722,1609262722,""
+16,3,(\.|^)doubleclick$,1,1609262803,1609262803,""
+17,3,^(.+[_.-])?amp(project)?\.,1,1609262857,1609262857,""
 18,0,click.misend.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
 20,0,list-manage.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
 26,0,aax-eu.amazon-adsystem.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
-63,2,(\.|^)gruppogammawatches\.com$,1,1601579230,1609264530,
-65,2,(\.|^)ecs\.richrelevance\.com$,1,1603524612,1609264530,
-74,0,webhook.logentries.com,1,1608301596,1609264530,
+63,2,(\.|^)gruppogammawatches\.com$,1,1601579230,1609264530,""
+65,2,(\.|^)ecs\.richrelevance\.com$,1,1603524612,1609264530,""
+74,0,webhook.logentries.com,1,1608301596,1609264530,""
 77,0,gateway.icloud.com,1,1609063768,1609264530,"Sikrer at iCloud virker med HomeKit etc."
 80,0,62.210.136.158,1,1609085767,1609264530,"KeepSolid SmartDNS"
-119,2,(\.|^)sarenza$,1,1609263598,1609264530,
-120,2,(\.|^)mailchimp$,1,1609263608,1609264530,
+119,2,(\.|^)sarenza$,1,1609263598,1609264530,""
+120,2,(\.|^)mailchimp$,1,1609263608,1609264530,""
 122,2,(\.|^)kk.dk,1,1609263663,1609264530,"KK VPN m.v."
-123,2,(\.|^)bbc\.$,1,1609273409,1609273409,
-124,0,el-ladies.com,1,1609273451,1609273451,
-125,0,mature-blogs.com,1,1609273479,1609273479,
-126,2,(\.|^)piratebay$,1,1609273507,1609273507,
-127,2,(\.|^)yts$,1,1609273517,1609273517,
+123,2,(\.|^)bbc\.$,1,1609273409,1609273409,""
+124,0,el-ladies.com,1,1609273451,1609273451,""
+125,0,mature-blogs.com,1,1609273479,1609273479,""
+126,2,(\.|^)piratebay$,1,1609273507,1609273507,""
+127,2,(\.|^)yts$,1,1609273517,1609273517,""
 128,0,metrics.icloud.com,1,1609322090,1609322090,"Added from Query Log"
 129,0,cf.iadsdk.apple.com,1,1609322131,1609322131,"Added from Query Log"
-130,0,tv2.dk,1,1609322951,1609322951,
-131,0,watchgecko.us7.list-manage.com,1,1609323072,1609323072,
-132,0,drop.com,1,1609323123,1609323123,
-133,0,9to5toys.com,1,1609323664,1609323664,
-134,3,(\.|^)forgeofempires$,1,1609414163,1609414163,
+130,0,tv2.dk,1,1609322951,1609322951,""
+131,0,watchgecko.us7.list-manage.com,1,1609323072,1609323072,""
+132,0,drop.com,1,1609323123,1609323123,""
+133,0,9to5toys.com,1,1609323664,1609323664,""
+134,3,(\.|^)forgeofempires$,1,1609414163,1609414163,""
+135,2,(\.|^)fdm\.dk$,1,1609595997,1609595997,
