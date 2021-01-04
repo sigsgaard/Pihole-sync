@@ -14,7 +14,7 @@ id,type,domain,enabled,date_added,date_modified,comment
 13,3,^pixels?[-.],1,1609260832,1609260832,github.com/mmotti/pihole-regex
 14,3,^stat(s|istics)?[0-9]*[_.-],1,1609260832,1609260832,github.com/mmotti/pihole-regex
 15,3,(^|\.)rettighedsalliancen$,1,1609262722,1609262722,""
-16,3,(\.|^)doubleclick$,1,1609262803,1609262803,""
+16,3,(\.|^)doubleclick$,1,1609262803,1609771869,
 17,3,^(.+[_.-])?amp(project)?\.,1,1609262857,1609262857,""
 18,0,click.misend.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
 20,0,list-manage.com,1,1597247500,1609264530,"Migrated from /etc/pihole/whitelist.txt"
@@ -41,3 +41,11 @@ id,type,domain,enabled,date_added,date_modified,comment
 134,3,(\.|^)forgeofempires$,1,1609414163,1609414163,""
 135,2,(\.|^)fdm\.dk$,1,1609595997,1609595997,
 136,0,harald-nyborg.dk,1,1609607472,1609607472,
+151,3,(\.|^)a-mo$,1,1609771403,1609771403,
+152,3,(\.|^)chartbeat$,1,1609771416,1609771416,
+153,3,(\.|^)adthrive$,1,1609771441,1609771441,
+154,3,(\.|^)btloader$,1,1609771454,1609771454,
+155,3,(\.|^)crazyegg$,1,1609771556,1609771556,
+156,3,(\.|^)context\.ly$,1,1609771727,1609771727,
+157,3,(\.|^)esputnik$,1,1609771789,1609771789,
+158,3,(\.|^)ezodn$,1,1609771843,1609771843,
