@@ -53,3 +53,5 @@ id,type,domain,enabled,date_added,date_modified,comment
 160,2,(\.|^)djoef\.dk$,1,1610695793,1610695793,"links.mail.djoef.dk whitelist"
 162,3,(\.|^)tryzens-analytics$,1,1611475440,1611475440,
 163,3,(\.|^)vyrl\.co$,1,1611485741,1611485741,
+164,3,(\.|^)onetag$,1,1612938611,1612938677,tracker
+165,3,(\.|^)ontetag$,1,1612938642,1612938642,tracker
