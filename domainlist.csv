@@ -24,7 +24,6 @@ id,type,domain,enabled,date_added,date_modified,comment
 74,0,webhook.logentries.com,1,1608301596,1609264530,""
 77,0,gateway.icloud.com,1,1609063768,1609264530,"Sikrer at iCloud virker med HomeKit etc."
 80,0,62.210.136.158,1,1609085767,1609264530,"KeepSolid SmartDNS"
-119,2,(\.|^)sarenza$,1,1609263598,1609264530,""
 120,2,(\.|^)mailchimp$,1,1609263608,1609264530,""
 122,2,(\.|^)kk.dk,1,1609263663,1609264530,"KK VPN m.v."
 123,2,(\.|^)bbc\.$,1,1609273409,1609273409,""
@@ -63,3 +62,4 @@ id,type,domain,enabled,date_added,date_modified,comment
 172,3,(\.|^)ampproject$,1,1613906693,1613906693,
 173,3,(\.|^)buysellads$,1,1613906861,1613906861,
 174,1,geni.us,1,1613907460,1613907460,
+175,0,eulerian.sarenza.com,1,1615568280,1615568280,
