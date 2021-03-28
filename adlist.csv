@@ -1,6 +1,6 @@
 id,address,enabled,date_added,date_modified,comment,date_updated
-1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1609260500,1609260500,"Migrated from /etc/pihole/adlists.list",1616417232
-2,https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt,1,1609261501,1609261501,"",1616417243
+1,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,1,1609260500,1609260500,"Migrated from /etc/pihole/adlists.list",1616896264
+2,https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt,1,1609261501,1609261501,"",1616896274
 4,https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt,1,1609261555,1609261555,"",1613558184
-5,https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser,1,1609261575,1609261575,"",1616417245
+5,https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser,1,1609261575,1609261575,"",1616896276
 6,https://v.firebog.net/hosts/static/w3kbl.txt,1,1609261699,1609261699,"",1613558186
