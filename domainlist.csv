@@ -35,7 +35,6 @@ id,type,domain,enabled,date_added,date_modified,comment
 129,0,cf.iadsdk.apple.com,1,1609322131,1609322131,"Added from Query Log"
 130,0,tv2.dk,1,1609322951,1609322951,""
 131,0,watchgecko.us7.list-manage.com,1,1609323072,1609323072,""
-132,0,drop.com,1,1609323123,1609323123,""
 133,0,9to5toys.com,1,1609323664,1609323664,""
 134,3,(\.|^)forgeofempires$,1,1609414163,1609414163,""
 135,2,(\.|^)fdm\.dk$,1,1609595997,1609595997,
